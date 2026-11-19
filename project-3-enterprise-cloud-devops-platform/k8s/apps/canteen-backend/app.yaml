@@ -26,6 +26,9 @@ spec:
           env:
             - name: MONGO_URI
               value: "mongodb://canteen-db-svc.prod.svc.cluster.local:27017/canteenDB"
+          envFrom:
+            - secretRef:
+                name: canteen-backend-secrets
           resources:
             requests:
               cpu: "100m"
