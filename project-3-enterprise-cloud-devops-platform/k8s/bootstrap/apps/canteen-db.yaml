@@ -8,7 +8,7 @@ metadata:
 spec:
   project: default
   source:
-    repoURL: https://github.com/vohrasalman/enterprise-cloud-devops-platform.git
+    repoURL: 'https://github.com/vohrasalman/smartbite-devsecops.git'
     targetRevision: main
     path: project-3-enterprise-cloud-devops-platform/k8s/apps/canteen-db
   destination:
