@@ -10,7 +10,7 @@ spec:
   source:
     repoURL: 'https://github.com/vohrasalman/smartbite-devsecops.git'
     targetRevision: main
-    path: k8s/apps/velero
+    path: project-3-enterprise-cloud-devops-platform/k8s/apps/velero
   destination:
     server: https://kubernetes.default.svc
     namespace: velero
