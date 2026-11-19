@@ -8,7 +8,7 @@ metadata:
 spec:
   project: default
   source:
-    repoURL: 'https://github.com/vohrasalman/smartbite-devsecops.git'
+    repoURL: 'https://github.com/salmanvohra-dev/smartbite-devsecops.git'
     targetRevision: main
     path: project-3-enterprise-cloud-devops-platform/k8s/apps/velero
   destination:
