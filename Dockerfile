@@ -13,7 +13,7 @@ RUN npm ci --only=production && npm cache clean --force
 # ==========================================
 # STAGE 2: HARDENED PRODUCTION RUNTIME
 # ==========================================
-FROM node:20-alpine
+FROM node:16.13.0-alpine3.14
 
 # Security: Upgrade OS packages to patch known CVEs for Trivy scan
 RUN apk update && apk upgrade --no-cache
