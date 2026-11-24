@@ -27,7 +27,7 @@ spec:
           backupStorageLocation:
             - name: default
               provider: aws
-              bucket: salman-eks-velero-backups-13942c30
+              bucket: salman-eks-velero-backups-3cd8821d
               config:
                 region: us-east-1
           volumeSnapshotLocation:
