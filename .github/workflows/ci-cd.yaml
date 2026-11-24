@@ -84,7 +84,7 @@ jobs:
       - name: Build Production Docker Image (Local Tar for Scanning)
         uses: docker/build-push-action@v6
         with:
-          context: .
+          context: ./backend 
           file: ./Dockerfile
           load: true
           tags: ${{ env.ECR_REPOSITORY }}:${{ steps.meta.outputs.tag }}
